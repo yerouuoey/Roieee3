@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roieee Tech Store - Logout</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="banner">
+                <h1>Account Management</h1>
+                <p>Manage your account and orders</p>
+            </div>
+            <nav>
+                <a href="index.html"><i class="fas fa-home"></i> Home</a>
+                <a href="cart.html"><i class="fas fa-shopping-cart"></i> Cart</a>
+                <a href="checkout.html"><i class="fas fa-credit-card"></i> Checkout</a>
+                <a href="logout.html" class="active"><i class="fas fa-sign-out-alt"></i> Logout</a>
+            </nav>
+        </header>
+
+        <div class="logout-container">
+            <div class="account-actions">
+                <h2>Account Actions</h2>
+                <div class="action-buttons">
+                    <button id="clearCart" class="action-button">
+                        <i class="fas fa-trash"></i> Clear Shopping Cart
+                    </button>
+                    <button id="downloadOrders" class="action-button">
+                        <i class="fas fa-download"></i> Download Order History
+                    </button>
+                    <button id="logout" class="action-button primary">
+                        <i class="fas fa-sign-out-alt"></i> Logout
+                    </button>
+                </div>
+            </div>
+
+            <div class="order-summary">
+                <h2>Current Cart</h2>
+                <div id="currentCart"></div>
+            </div>
+
+            <div class="order-history">
+                <h2>Order History</h2>
+                <div id="orderHistory"></div>
+            </div>
+        </div>
+
+        <footer>
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>About Us</h3>
+                    <p>Your trusted source for the latest technology products.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact</h3>
+                    <p>Email: yerouuoey@qq.com</p>
+                    <p>Phone: 15968443722</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Follow Us</h3>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>2024 Tech Store. Created by Roieee. All rights reserved.</p>
+            </div>
+        </footer>
+    </div>
+    <script src="logout.js"></script>
+</body>
+</html> 

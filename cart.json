@@ -1,0 +1,74 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "name": "Web Development Masterclass",
+            "description": "Complete course covering HTML, CSS, JavaScript, and modern frameworks. Includes 50+ projects and lifetime access.",
+            "price": 299.00,
+            "image": "webdev.jpg"
+        },
+        {
+            "id": 2,
+            "name": "Python Programming Bundle",
+            "description": "From basics to advanced topics, data science, and machine learning. Includes Jupyter notebooks and practice exercises.",
+            "price": 249.00,
+            "image": "python.jpg"
+        },
+        {
+            "id": 3,
+            "name": "UI/UX Design Resource Pack",
+            "description": "Professional design templates, wireframe kits, and UI components. Perfect for designers and developers.",
+            "price": 199.00,
+            "image": "design.jpg"
+        },
+        {
+            "id": 4,
+            "name": "Mobile App Development",
+            "description": "Learn iOS and Android development with Swift and Kotlin. Includes real-world projects and app deployment guides.",
+            "price": 349.00,
+            "image": "mobile.jpg"
+        },
+        {
+            "id": 5,
+            "name": "Data Science Toolkit",
+            "description": "Comprehensive resource pack for data analysis, visualization, and machine learning. Includes datasets and code examples.",
+            "price": 279.00,
+            "image": "data.jpg"
+        },
+        {
+            "id": 6,
+            "name": "Cloud Computing Essentials",
+            "description": "Master AWS, Azure, and Google Cloud. Includes hands-on labs and certification preparation materials.",
+            "price": 399.00,
+            "image": "cloud.jpg"
+        },
+        {
+            "id": 7,
+            "name": "Cybersecurity Bundle",
+            "description": "Learn ethical hacking, network security, and penetration testing. Includes virtual labs and security tools.",
+            "price": 329.00,
+            "image": "security.jpg"
+        },
+        {
+            "id": 8,
+            "name": "AI & Machine Learning",
+            "description": "Comprehensive guide to AI fundamentals, neural networks, and deep learning. Includes TensorFlow and PyTorch examples.",
+            "price": 379.00,
+            "image": "ai.jpg"
+        },
+        {
+            "id": 9,
+            "name": "DevOps Resource Pack",
+            "description": "Learn CI/CD, Docker, Kubernetes, and infrastructure as code. Includes deployment scripts and best practices.",
+            "price": 299.00,
+            "image": "devops.jpg"
+        },
+        {
+            "id": 10,
+            "name": "Blockchain Development",
+            "description": "Master smart contracts, DApps, and blockchain fundamentals. Includes Ethereum and Solidity development guides.",
+            "price": 349.00,
+            "image": "blockchain.jpg"
+        }
+    ]
+} 

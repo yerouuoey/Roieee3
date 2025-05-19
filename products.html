@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roieee Tech Store - Courses</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="user-section">
+                <span id="userNameDisplay">Welcome, Guest</span>
+                <button onclick="logout()" class="logout-btn" id="logoutBtn" style="display: none;">Logout</button>
+            </div>
+            <div class="banner">
+                <h1>Featured Courses</h1>
+                <p>Discover our premium learning materials</p>
+            </div>
+            <nav>
+                <a href="index.html"><i class="fas fa-home"></i> Home</a>
+                <a href="products.html" class="active"><i class="fas fa-graduation-cap"></i> Courses</a>
+                <a href="cart.html" id="cartLink" class="disabled"><i class="fas fa-shopping-cart"></i> Cart</a>
+                <a href="checkout.html" id="checkoutLink" class="disabled"><i class="fas fa-credit-card"></i> Checkout</a>
+                <a href="logout.html" id="logoutLink" class="disabled"><i class="fas fa-sign-out-alt"></i> Logout</a>
+            </nav>
+        </header>
+
+        <main class="products-container">
+            <div class="products-grid">
+                <div class="product-card">
+                    <img src="webdev.jpg" alt="Web Development Masterclass">
+                    <h3>Web Development Masterclass</h3>
+                    <p>Complete course covering HTML, CSS, JavaScript, and modern frameworks. Includes 50+ projects and lifetime access.</p>
+                    <div class="price">AUD $449.00</div>
+                </div>
+                <div class="product-card">
+                    <img src="python.jpg" alt="Python Programming Bundle">
+                    <h3>Python Programming Bundle</h3>
+                    <p>From basics to advanced topics, data science, and machine learning. Includes Jupyter notebooks and practice exercises.</p>
+                    <div class="price">AUD $379.00</div>
+                </div>
+                <div class="product-card">
+                    <img src="data.jpg" alt="Data Science Toolkit">
+                    <h3>Data Science Toolkit</h3>
+                    <p>Comprehensive resource pack for data analysis, visualization, and machine learning. Includes datasets and code examples.</p>
+                    <div class="price">AUD $419.00</div>
+                </div>
+                <div class="product-card">
+                    <img src="cloud.jpg" alt="Cloud Computing Essentials">
+                    <h3>Cloud Computing Essentials</h3>
+                    <p>Master AWS, Azure, and Google Cloud. Includes hands-on labs and certification preparation materials.</p>
+                    <div class="price">AUD $599.00</div>
+                </div>
+                <div class="product-card">
+                    <img src="ai.jpg" alt="AI & Machine Learning">
+                    <h3>AI & Machine Learning</h3>
+                    <p>Comprehensive guide to AI fundamentals, neural networks, and deep learning. Includes TensorFlow and PyTorch examples.</p>
+                    <div class="price">AUD $569.00</div>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>About Us</h3>
+                    <p>Your trusted source for premium online courses.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact</h3>
+                    <p>Email: yerouuoey@qq.com</p>
+                    <p>Phone: 15968443722</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Follow Us</h3>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>2024 Tech Store. Created by Roieee. All rights reserved.</p>
+            </div>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
